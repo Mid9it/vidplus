@@ -5,7 +5,6 @@
   "/adminbaby/page": "app/adminbaby/page.js",
   "/display/[info]/[limit]/[search]/page": "app/display/[info]/[limit]/[search]/page.js",
   "/dmca/page": "app/dmca/page.js",
-  "/download/page": "app/download/page.js",
   "/edit/[id]/page": "app/edit/[id]/page.js",
   "/latest/page": "app/latest/page.js",
   "/notification/[id]/page": "app/notification/[id]/page.js",
@@ -17,6 +16,7 @@
   "/showcase/[id]/[season]/page": "app/showcase/[id]/[season]/page.js",
   "/upcoming/page": "app/upcoming/page.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/download/page": "app/download/page.js",
   "/addseries/page": "app/addseries/page.js",
   "/addmovies/page": "app/addmovies/page.js"
 }
