@@ -380,7 +380,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
-      <header
+      {slide &&<header
         className="w-full fixed z-40 top-0 flex items-center justify-center transition-all ease-in-out duration-300 text-[#A5AFBE]"
         style={
           color
@@ -515,7 +515,7 @@ const Navbar = () => {
           </section>
         </div>
         {log && signup && <Sign login={login} signup={setsignup} />}
-      </header>
+      </header>}
     </>
   );
 };

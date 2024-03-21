@@ -1,22 +1,4 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/activate/[token]/page": "app/activate/[token]/page.js",
-  "/adhome/page": "app/adhome/page.js",
-  "/adminbaby/page": "app/adminbaby/page.js",
-  "/display/[info]/[limit]/[search]/page": "app/display/[info]/[limit]/[search]/page.js",
-  "/dmca/page": "app/dmca/page.js",
-  "/edit/[id]/page": "app/edit/[id]/page.js",
-  "/latest/page": "app/latest/page.js",
-  "/notification/[id]/page": "app/notification/[id]/page.js",
   "/page": "app/page.js",
-  "/passforget/page": "app/passforget/page.js",
-  "/password/[token]/page": "app/password/[token]/page.js",
-  "/profile/[id]/page": "app/profile/[id]/page.js",
-  "/robots.txt/route": "app/robots.txt/route.js",
-  "/showcase/[id]/[season]/page": "app/showcase/[id]/[season]/page.js",
-  "/upcoming/page": "app/upcoming/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/download/page": "app/download/page.js",
-  "/addseries/page": "app/addseries/page.js",
-  "/addmovies/page": "app/addmovies/page.js"
+  "/display/[info]/[limit]/[search]/page": "app/display/[info]/[limit]/[search]/page.js"
 }

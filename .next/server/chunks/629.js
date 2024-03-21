@@ -1,1 +1,0 @@
-"use strict";exports.id=629,exports.ids=[629],exports.modules={4629:(h,t,v)=>{v.d(t,{ogw:()=>z});var r=v(3390);function z(h){return(0,r.w_)({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M4 4h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 10h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 16h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z"}}]})(h)}}};
