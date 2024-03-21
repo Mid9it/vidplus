@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import * as yup from "yup";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next-nprogress-bar";
 const Search = () => {
     const router = useRouter();
     const [load, setload] = useState(false)
