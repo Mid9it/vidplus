@@ -62,11 +62,11 @@ const Trailer = ({trailer, lat}) => {
                 <div className=' w-[90%] 3xl:w-[80%] flex flex-col lg:flex-row justify-between items-center '>
                     <section className=' flex flex-col lg:flex-row w-full lg:w-[75%]  bg-[#0D172B]'>
                     <Info no={no} trailer={trailer}/>
-                    <div className='  w-full overflow-y-scroll scrollbar-thumb-[#141935] py-2 h-[441px] scrollbar-[#03091A] scrollbar-thin'>
+                    <div className='  w-full overflow-y-scroll scrollbar-thumb-[#141935] scrollbar-track-transparent py-2 h-[441px]  scrollbar-thin'>
                     <Control no={no} setno={setno} trailer={trailer}/>
                     </div>
                     </section>
-                    <section className=' w-[100%] border-t-8 border-black lg:border-t-0 lg:border-black lg:w-[20%] h-[441px] overflow-y-scroll p-4 bg-[#0D172B] scrollbar-thumb-[#141935] scrollbar-[#03091A] scrollbar-thin'>
+                    <section className=' w-[100%] border-t-8 border-black lg:border-t-0 lg:border-black lg:w-[20%] h-[441px] overflow-y-scroll p-4 bg-[#0D172B] scrollbar-thumb-[#141935] scrollbar-track-transparent scrollbar-thin'>
                         <div className=' '>
                             <header className=' font-bold text-xl mb-2'>LATEST ANIME</header>
                             <div className=' w-full h-[1px] bg-[#A5AFBE] mb-4'> </div>

@@ -42,7 +42,7 @@ Get()
         <div className=' flex flex-col items-center mt-40 w-full relative z-30 min-h-[100vh]'>
           <div className='flex justify-center w-[40%] '><h1 className=' text-white font-bold text-3xl'>NOTIFICATION</h1></div>
           <main className=' w-[95%] lg:w-[40%]'>
-          <div className=' mt-10 p-2 border-[#383B42] border-2 overflow-y-scroll scrollbar-thumb-[#141935] scrollbar-[#03091A] scrollbar-thin  h-[1000px] mb-10'>
+          <div className=' mt-10 p-2 border-[#383B42] border-2 overflow-y-scroll scrollbar-thumb-[#141935] scrollbar-track-transparent scrollbar-thin  h-[1000px] mb-10'>
             {info.map((e,i)=>{
               return(
                 <div className=' text-white rounded-md mb-4  pt-2 pb-8 px-2 bg-[#0f2236]' key={i}>{e.message}</div>

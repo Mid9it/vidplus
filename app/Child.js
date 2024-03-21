@@ -7,7 +7,7 @@ import NextTopLoader from 'nextjs-toploader';
 
 const Child = ({ children, dosis }) => {
   return (
-    <html lang="en" className=' scrollbar-thumb-[#141935] scrollbar-[#03091A] scrollbar-thin overflow-x-hidden w-[100vw] select-none'>
+    <html lang="en" className=' scrollbar-thumb-[#141935] scrollbar-track-transparent scrollbar-thin overflow-x-hidden w-[100vw] select-none'>
     <head><meta name="monetag" content="7aeece893954aa98d10a7f34691f1d31"/>
     </head>
     <body className={dosis.className}>

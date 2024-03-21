@@ -1,1 +1,6 @@
-{}
+{
+  "/page": "app/page.js",
+  "/notification/[id]/page": "app/notification/[id]/page.js",
+  "/latest/page": "app/latest/page.js",
+  "/display/[info]/[limit]/[search]/page": "app/display/[info]/[limit]/[search]/page.js"
+}

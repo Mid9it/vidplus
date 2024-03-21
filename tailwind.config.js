@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        custom: {
+            DEFAULT: '#10B981',
+            light: '#D1FAE5',
+        },
+    },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -32,5 +38,5 @@ module.exports = {
       '3xl':'1800px'
     }
   },
-  plugins: [require('tailwind-scrollbar')({ nocompatible: true }),],
+  plugins: [require('tailwind-scrollbar')],
 }
