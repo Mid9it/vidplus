@@ -1,0 +1,16 @@
+User-Agent: *
+Allow: /
+Disallow: /adhome
+Disallow: /adminbaby
+Disallow: /addmovies
+Disallow: /addseries
+Disallow: /edit
+Disallow: /upcoming
+Disallow: /dmca
+Disallow: /download
+Disallow: /notification
+Disallow: /passforget
+Disallow: /profile
+Disallow: /activate
+
+Sitemap: https://vidnaija.com.ng/sitemap.xml

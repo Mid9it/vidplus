@@ -1,5 +1,5 @@
 export default async function sitemap() {
-    const res = await fetch('https://vidnaija.com.ng:8443/get');
+    const res = await fetch('https://vidnaija-backend.fly.dev/get');
     const result = await res.json();
   
     const post = result.map((pos) => ({
