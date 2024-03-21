@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 165, 175, 190;
+  --background-start-rgb: 2, 11, 25;
+  --background-end-rgb: 2, 11, 23;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 165, 175, 190;
+    --background-start-rgb: 2, 11, 25;
+    --background-end-rgb: 2, 11, 23;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+p{
+  white-space: pre-line;
+}
+
+.ql-editor a {
+  color: "red";
+  text-decoration: underline; /* or any other text-decoration style you prefer */
+}
+
+/* Optional: Change the color for visited links */
+.ql-editor a:visited {
+  color: "red";
+}
