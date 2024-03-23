@@ -341,7 +341,7 @@ const Navbar = () => {
                     )}
                     {log || (
                       <div
-                        className=" w-14 h-14 cursor-pointer mb-6"
+                        className="   cursor-pointer min-w-[60px] max-w-[60px] max-h-[60px] min-h-[60px] rounded-full  overflow-hidden border-black border-[1px]  mb-6"
                         onClick={() => {
                           router.push(`/profile/${id}`);
                           setslide(true);
@@ -479,7 +479,7 @@ const Navbar = () => {
                   )}
                   {log || (
                     <div
-                      className=" w-14 h-14 cursor-pointer"
+                      className=" cursor-pointer min-w-[60px] max-w-[60px] max-h-[60px] min-h-[60px] rounded-full  overflow-hidden border-black border-[1px]  "
                       onClick={() => router.push(`/profile/${id}`)}
                     >
                       <Imagesprofile src={src} />

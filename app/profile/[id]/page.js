@@ -67,7 +67,7 @@ Gets()
           <div><Top/></div>
           <div className=' relative z-30 w-full flex justify-center pt-40'>
           <div className=' w-[95%] lg:w-[50%]'>
-            <div className='w-full flex  justify-center items-center pb-40'><div className=' w-20 sm:w-32 '><Imagesprofile src={datalist.profile_image}/></div><div className=' flex  flex-col items-center ml-5'><p className=' text-white text-center font-bold text-2xl'>{datalist.user_name}</p><div className=' flex justify-between'><Stars no={datalist.rank}/><Stars no={datalist.rank}/><Stars no={datalist.rank}/><Stars no={datalist.rank}/></div><div className='mt-2'><Type no={datalist.rank}/></div></div></div>
+            <div className='w-full flex  justify-center items-center pb-40'><div className=' w-20 h-20 sm:w-32  sm:h-32 overflow-hidden rounded-full  border-black border-[1px]'><Imagesprofile src={datalist.profile_image}/></div><div className=' flex  flex-col items-center ml-5'><p className=' text-white text-center font-bold text-2xl'>{datalist.user_name}</p><div className=' flex justify-between'><Stars no={datalist.rank}/><Stars no={datalist.rank}/><Stars no={datalist.rank}/><Stars no={datalist.rank}/></div><div className='mt-2'><Type no={datalist.rank}/></div></div></div>
             <div className=' border-gray-200 mb-20  border-[1px] p-5 border-opacity-10'>
               <Formik
               initialValues={{user_name:datalist.user_name}}

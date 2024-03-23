@@ -107,7 +107,7 @@ const Get = () =>{
         Get()
     },[])
   return (
-    <LazyLoadImage  src={usr} className=' border-black border-[1px] rounded-full'/>
+    <LazyLoadImage  src={usr} className=' w-full h-full  border-black border-[1px] rounded-full'/>
   )
 }
 
