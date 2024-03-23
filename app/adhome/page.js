@@ -26,7 +26,7 @@ const page = () => {
           <li><button className=' bg-blue-500 px-5 py-3 cursor-pointer hover:bg-blue-700 text-sm rounded-lg' onClick={()=>router.push('/upcoming')}>ADD UPCOMING</button></li>
         </ul>
       </nav>}
-      <d iv className='  '><FaCalendarPlus className='text-white text-4xl absolute top-40 right-20 z-40 hover:text-yellow-500 cursor-pointer' onClick={()=>setload(!load)}/></d>
+      <d iv className='  '><FaCalendarPlus className='text-white text-4xl absolute top-40 right-20  hover:text-yellow-500 cursor-pointer z-30' onClick={()=>setload(!load)}/></d>
       <div className=' min-h-[100vh] flex justify-center'>
         <div className=' w-[87%]'>
         <Series sl={sl}/>

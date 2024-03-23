@@ -1,13 +1,7 @@
 import React from 'react';
 
 const Episode = ({ arr, setArr, props, sub }) => {
-  const handleSeasonChange = (seasonIndex, newValue) => {
-    setArr((prevArr) => {
-      const newArr = [...prevArr];
-      newArr[seasonIndex].number = newValue;
-      return newArr;
-    });
-  };
+
 
   const handleAddEpisode = (seasonIndex) => {
     setArr((prevArr) => {
@@ -47,8 +41,8 @@ const Episode = ({ arr, setArr, props, sub }) => {
   };
 
   return (
-    <main className=' fixed top-0  h-[100vh] w-[100vw] flex items-center justify-center z-50 bg-black bg-opacity-30'>
-      <div className=' w-full lg:w-[90%] border-white border-[1px] overflow-y-scroll scrollbar-thumb-[#141935] scrollbar-[#03091A] scrollbar-thin h-[100%] lg:h-[90%] bg-black text-white flex-col items-center justify-center p-3'>
+    <main className=' fixed top-0  h-[100vh] w-[100vw] flex items-center justify-center z-50 bg-black bg-opacity-30 '>
+      <div className=' w-full lg:w-[90%] pb-40 border-white border-[1px] overflow-y-scroll scrollbar-thumb-[#141935] scrollbar-[#03091A] scrollbar-thin h-[100%] lg:h-[90%] bg-black text-white flex-col items-center justify-center p-3'>
         <div className=' flex justify-between '><header className=' font-bold mb-5'>ADD EPISODES</header> <div className=' bg-red-500 px-3 py-1 flex justify-center items-center font-bold cursor-pointer hover:bg-red-600' onClick={()=>sub(false)}>CLOSE</div></div>
         <div className=' '>
           {arr.map((season, seasonIndex) => (

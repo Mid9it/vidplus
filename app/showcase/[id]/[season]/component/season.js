@@ -21,7 +21,7 @@ const Season = ({season,seano,seasonno,  setload, id}) => {
     const Seasons = () =>{
         const data = result.map((e,i)=>{
             return(
-                <div  key={i}   className=' py-2 w-full   px-10 border-[#020B19] bg-[#243651] border-2 ' onClick={()=>{
+                <div  key={i}   className=' py-2 w-full pl-4 whitespace-nowrap  border-[#020B19] bg-[#243651] border-2 ' onClick={()=>{
                     if(e != seasonno)
                     {
                     setload(true)
@@ -45,7 +45,7 @@ useEffect(()=>{
             <div className=' outline-none mb-3 w-fit relative  border-[#020B19] rounded-md flex items-center bg-[#243651] cursor-pointer text-white' onClick={()=>setco(!co)}>
             <h1 className=' font-bold px-7 py-2  text-lg'>Seasons</h1>
             <FaAngleDown className=' mx-2' />
-            {co &&<div className=' absolute  top-12 h-60 scrollbar-thumb-[#141935] scrollbar-[#03091A] scrollbar-thin overflow-scroll'><Seasons /></div>}
+            {co &&<div className=' absolute  top-12 h-60 scrollbar-thumb-[#141935] w-full scrollbar-[#03091A] scrollbar-thin overflow-scroll'><Seasons /></div>}
             </div>
             <div className='flex items-center mb-5'><p className=' mr-2'>👆</p><p className=' text-white font-bold'>Choose Season</p></div>
             <div><h1 className=' text-white font-bold mb-5 text-xl underline'>Season {seasonno}</h1></div>

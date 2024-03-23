@@ -1352,6 +1352,10 @@ video {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1405,6 +1409,9 @@ video {
 }
 .pt-\[240px\] {
   padding-top: 240px;
+}
+.pl-4 {
+  padding-left: 1rem;
 }
 .text-center {
   text-align: center;
@@ -2068,11 +2075,6 @@ p{
   .xl\:justify-between {
     justify-content: space-between;
   }
-
-  .xl\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
 }
 @media (min-width: 1536px) {
 
@@ -2091,6 +2093,10 @@ p{
 
   .\32xl\:w-1\/2 {
     width: 50%;
+  }
+
+  .\32xl\:w-10\/12 {
+    width: 83.333333%;
   }
 
   .\32xl\:w-9\/12 {
@@ -2123,10 +2129,6 @@ p{
 
   .\32xl\:w-full {
     width: 100%;
-  }
-
-  .\32xl\:w-10\/12 {
-    width: 83.333333%;
   }
 }
 @media (min-width: 1800px) {
