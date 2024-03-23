@@ -163,7 +163,7 @@ const   Reply=()=>{
                           </div>
                           <div className=' w-[1px] h-full bg-opacity-20 bg-gray-200 mr-5'></div>
                         <div className=' w-full flex justify-start' >
-                    <div className=' pt-2 pr-5 w-full'>
+                    <div className=' py-2 pr-5 w-full'>
                     <div className=' text-white text-sm lg:text-base  min-h-[40px] break-all flex justify-start'><div className=' '/>{e.chat}</div>
                    
                     </div>

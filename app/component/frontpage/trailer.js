@@ -34,8 +34,10 @@ const Control = ({no, setno, trailer}) =>{
         return(
             <div className=' py-3 w-full sm:cursor-pointer pl-5 hover:bg-[#1F375F]' key={e._id} style={no==e._id?{backgroundColor:"#1F375F"}:{backgroundColor:""}} onClick={()=>setno(e._id)}>
                 <div className=' flex items-start'>
-                    <LazyLoadComponent><div className=' w-36 rounded-sm h-20 bg-cover mr-2' style={{backgroundImage:`url(${e.image})`}} ></div></LazyLoadComponent>
-                    <p className=' font-bold whitespace-normal w-full'>{truncateString(e.title, 90)}</p>
+                    <div className=' w-36  h-20  rounded-sm overflow-hidden mr-2' >
+                    <LazyLoadComponent className=" w-full h-full"><div className=' w-full h-full bg-cover ' style={{backgroundImage:`url(${e.image})`}} ></div></LazyLoadComponent>
+                    </div>
+                    <p className=' sm:text-base text-sm font-bold whitespace-normal w-full'>{truncateString(e.title, 90)}</p>
                 </div>
             </div>
         )
@@ -71,7 +73,9 @@ const Trailer = ({trailer, lat}) => {
                             <header className=' font-bold text-xl mb-2'>LATEST ANIME</header>
                             <div className=' w-full h-[1px] bg-[#A5AFBE] mb-4'> </div>
                             <div className=' flex flex-col items-center'> 
-                                <LazyLoadComponent><div style={{backgroundImage:`url(${lat?.image})`}} className=' mb-3 w-40 bg-cover bg-center h-40 rounded-md'></div></LazyLoadComponent>
+                                <div className=' w-40 h-40 rounded-md overflow-hidden  mb-3 ' >
+                                <LazyLoadComponent><div style={{backgroundImage:`url(${lat?.image})`}} className='w-full bg-cover bg-center h-full '></div></LazyLoadComponent>
+                                </div>
                                 <div className=' w-full flex flex-col items-center '><Anime anime={lat?.seasons[lat.seasons.length - 1]} title={lat?.title}/></div>
                             </div>
                         </div>

@@ -341,7 +341,7 @@ const Navbar = () => {
                     )}
                     {log || (
                       <div
-                        className=" w-14 cursor-pointer mb-6"
+                        className=" w-14 h-14 cursor-pointer mb-6"
                         onClick={() => {
                           router.push(`/profile/${id}`);
                           setslide(true);
@@ -479,7 +479,7 @@ const Navbar = () => {
                   )}
                   {log || (
                     <div
-                      className=" w-14 cursor-pointer"
+                      className=" w-14 h-14 cursor-pointer"
                       onClick={() => router.push(`/profile/${id}`)}
                     >
                       <Imagesprofile src={src} />
