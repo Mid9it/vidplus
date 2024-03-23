@@ -399,7 +399,7 @@ const Navbar = () => {
                 }}
               />
             </div>
-            <ul className=" lg:flex font-bold text-sm w-full xl:w-11/12 2xl:w-8/12 justify-between hidden">
+            <ul className=" lg:flex font-bold text-sm w-full xl:w-11/12 2xl:w-10/12 justify-between hidden">
               <li onClick={() => router.push("/")}>
                 <div
                   className=" cursor-pointer hover:text-yellow-500 flex items-center  h-20 justify-center"

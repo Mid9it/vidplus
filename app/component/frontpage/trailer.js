@@ -48,7 +48,7 @@ const Anime =({anime, title})=>{
     const info = anime?.episode.slice(-7).map((e)=>{
         return(
             <div key={e._id} className=' text-center mb-3 sm:cursor-pointer'>
-            <Link href={{pathname:"/download",query:{uri:e.link}}}  onClick={()=>window.open("//greewepi.net/4/6809571")}  className=' font-bold underline text-sm lg:text-base xl:text-xl text-red-500  w-full sm:cursor-pointer hover:text-yellow-500' >{title} - Episode {e.no}</Link>
+            <Link href={{pathname:"/download",query:{uri:e.link}}}  onClick={()=>window.open("//greewepi.net/4/6809571")}  className=' font-bold underline text-sm lg:text-base  text-red-500  w-full sm:cursor-pointer hover:text-yellow-500' >{title} - Episode {e.no}</Link>
             </div>
         )
     })
