@@ -14,7 +14,7 @@ const Animes = ({header, Datas}) => {
             const comment = e.comment.length
             
             return(
-                <div key={e._id} className=' mb-5 lg:mb-0  mr-5 2xl:w-[200px] relative  min-w-[200px] h-[300px] lg:w-[150px] xl:w-[180px] 3xl:w-[260px] lg:h-[220px] xl:h-[250px] 2xl:h-[300px] 3xl:h-[380px]'>
+                <div key={e._id} className=' mb-5 lg:mb-0  mr-5 2xl:min-w-[200px] relative  min-w-[200px] h-[300px] lg:min-w-[150px] xl:min-w-[180px] 3xl:min-w-[260px] lg:h-[220px] xl:h-[250px] 2xl:h-[300px] 3xl:h-[380px]'>
                     <LazyLoadComponent className=" w-full">
                     <div style={{backgroundImage:`url(${e.image})`}} className=' flex justify-center items-center w-full h-full  bg-cover group ' onClick={()=>router.push(`/showcase/${e._id}/1`)}>
                         <div className=' absolute sm:cursor-pointer ease-in-out  w-full h-full bg-black z-30 opacity-20 group-hover:opacity-70 transition-all duration-500 '></div>
@@ -41,7 +41,7 @@ const Animes = ({header, Datas}) => {
                 <li className=' mr-7 hover:text-yellow-500  text-yellow-500'>#LATEST</li>
                 <li className='hover:text-yellow-500 hidden sm:block text-yellow-500'>#MOST REVIEWED</li>
             </ul>
-            <div className=' flex xl:justify-between overflow-x-scroll scrollbar-none'>
+            <div className=' flex  overflow-x-scroll scrollbar-none'>
                 <Data/>
             </div>
         </div>
