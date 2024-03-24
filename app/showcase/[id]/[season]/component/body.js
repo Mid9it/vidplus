@@ -73,8 +73,8 @@ const Body = ({ data, seano, setseason,seasonno,  setload ,id}) => {
              NOTE: WE DO NOT HOST ANY MOVIE ON OUR SERVER, WE JUST PROVIDE LINKS{" "}
             </p>
             {series || (<div className=" flex flex-col lg:flex-row">
-              {data.lowdownload?.link &&<Link href={{pathname:"/download",query:{uri:data.lowdownload.link}}} onClick={()=>window.open("//greewepi.net/4/6809571")} className="bg-red-600 text-white px-9 py-2 mb-7 lg:mb-0 lg:mr-10 font-semibold">{data.lowdownload.size}MB DOWNLOAD</Link>}
-              {data.highdownload?.link &&<Link href={{pathname:"/download",query:{uri:data.highdownload.link}}} onClick={()=>window.open("//greewepi.net/4/6809571")} className="bg-red-600 text-white px-9 py-2  font-semibold">{data.highdownload.size}MB DOWNLOAD</Link>}
+              {data.lowdownload?.link &&<Link href={{pathname:"/download",query:{uri:data.lowdownload.link}}} onClick={()=>window.open("//greewepi.net/4/6809571")} className="bg-red-600 text-white px-9 py-2 mb-7 lg:mb-0 lg:mr-10 font-semibold">DOWNLOAD {data.lowdownload.size}MB</Link>}
+              {data.highdownload?.link &&<Link href={{pathname:"/download",query:{uri:data.highdownload.link}}} onClick={()=>window.open("//greewepi.net/4/6809571")} className="bg-red-600 text-white px-9 py-2  font-semibold">DOWNLOAD {data.highdownload.size}MB</Link>}
               </div>
             )}
           </div>
