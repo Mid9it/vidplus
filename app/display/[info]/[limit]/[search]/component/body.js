@@ -12,7 +12,8 @@ const router = useRouter()
         const comment = e.comment.length
         
         return(
-            <div key={e._id} className=' mb-20 mx-1 2xl:mx-3  2xl:w-[200px] w-[150px] h-[220px] lg:w-[150px] xl:w-[180px] 3xl:w-[260px] lg:h-[220px] xl:h-[250px] 2xl:h-[300px] 3xl:h-[380px]' onClick={()=>router.push(`/showcase/${e._id}/1`)}>
+            <div className='mb-20 mx-1 2xl:mx-3 '>
+            <div key={e._id} className=' 2xl:w-[200px] w-[150px] h-[220px] lg:w-[150px] xl:w-[180px] 3xl:w-[260px] lg:h-[220px] xl:h-[250px] 2xl:h-[300px] 3xl:h-[380px]' onClick={()=>router.push(`/showcase/${e._id}/1`)}>
                 <LazyLoadComponent>
                 <div style={{backgroundImage:`url(${e.image})`}} className=' w-full h-full relative  flex justify-center mb-2 items-center  bg-cover group sm:cursor-pointer'>
                     <div className=' absolute w-full h-full bg-black z-30 opacity-20 group-hover:opacity-70 transition-all duration-500 '></div>
@@ -25,10 +26,12 @@ const router = useRouter()
                     </div>
                 </div>
                 </LazyLoadComponent>
+                </div>
                 <div>
                 <p className=' font-bold text-white text-sm 2xl:w-[200px] w-[150px]  lg:w-[150px] xl:w-[180px] 3xl:w-[260px]  '>{e.title}</p>
                         <div className=' flex items-center'><div className=' text-yellow-400 mr-1'><FaStar /></div><div className=' font-semibold text-white'>{e.rating} <span className=' text-xs font-bold text-[#A5AFBE]'>/10</span></div></div>
                 </div>
+           
             </div>
         )
     })
@@ -45,7 +48,7 @@ const Body = ({Datas,info}) => {
                 <li className=' mr-7 hover:text-yellow-500 sm:cursor-pointer text-yellow-500'>#{info.toUpperCase()}</li>
             </ul>
             <div className=' flex justify-center w-full '>
-                <div className='flex  lg:w-full   flex-wrap justify-center lg:justify-between '>
+                <div className='flex  lg:w-full pb-20   flex-wrap justify-center lg:justify-between '>
                 <Data Datas={Datas}/>
                 </div>
             </div>
