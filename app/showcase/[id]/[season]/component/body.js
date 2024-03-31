@@ -13,8 +13,8 @@ const Body = ({ data, seano, setseason,seasonno,  setload ,id}) => {
     <div className=" w-full">
     <div className=" h-full w-full flex justify-center items-center z-30 pt-[240px]">
       <div className="   w-full z-30 flex items-center lg:items-start flex-col lg:flex-row justify-between">
-        <div className=" rounded-lg overflow-hidden  w-[200px] lg:w-[450px]  lg:h-[500px] h-[300px]  lg:mr-10">
-          <img src={data.image} className=" w-full h-full" />
+        <div style={{backgroundImage:`url(${data.image})`}} className=" bg-cover bg-center rounded-lg overflow-hidden  w-[200px] lg:w-[450px]  lg:h-[500px] h-[300px]  lg:mr-10">
+          
         </div>
         <div className=" w-full flex flex-col items-center lg:items-start">
           <div className="   text-center  mb-5 ">

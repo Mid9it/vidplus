@@ -20,6 +20,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/display/[info]/[limit]/[search]/page.js"
+    ],
+    "/showcase/[id]/[season]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/showcase/[id]/[season]/page.js"
     ]
   }
 }
