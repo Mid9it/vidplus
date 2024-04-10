@@ -59,7 +59,10 @@ const page = () => {
                     
                     <a href={`/showcase/${e._id}/${season}`} onClick={()=>window.open("//greewepi.net/4/6809571")} className=' flex flex-col items-center group  mb-5 px-2 lg:mx-3' key={e._id}>
                       <div className=' rounded-full  w-[100px] h-[100px]'>
-                      <LazyLoadComponent ><div style={{backgroundImage:`url(${e.image})`}} className=' rounded-full border-white border-[2px] w-full h-full group-hover:border-yellow-500  flex justify-center items-center bg-cover group sm:cursor-pointer' ></div></LazyLoadComponent>
+                      <LazyLoadComponent  effect="blur"     wrapperProps={{
+        // If you need to, you can tweak the effect transition using the wrapper style.
+        style: {transitionDelay: "1s"},
+    }} ><div style={{backgroundImage:`url(${e.image})`}} className=' rounded-full border-white border-[2px] w-full h-full group-hover:border-yellow-500  flex justify-center items-center bg-cover group sm:cursor-pointer' ></div></LazyLoadComponent>
                       </div>
                       <div  className=' mb-5 w-[100px] text-white  sm:cursor-pointer group-hover:text-yellow-500 text-center break-all' >{tit.toUpperCase()}</div></a>
                   )
