@@ -13,7 +13,7 @@ export const metadata = {
     default: 'Vidnaija'},
     metadataBase: new URL('https://vidnaija.com.ng/'),
     openGraph: {
-      title: 'Vidnaija | Entertainment Hubspot',
+      title: 'Vidnaija | Entertainment and Movie Hubspot',
       description: 'Download movies, hollywood, bollywood, korean series, tv series and anime series for free from Vidnaija',
       images:[{url:'https://vidnaija.com.ng/opengraph-image.png', width:1200, height:630}]
       ,

@@ -42,6 +42,7 @@ const Login = ({signup}) => {
                         else{
                             setresult()
                             setshow(false)
+                            setload(false)
                             const datas = {
                                 token:info.token,
                                 _id:info?.data._id

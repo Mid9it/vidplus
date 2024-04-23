@@ -245,6 +245,7 @@ const Navbar = () => {
                 <img
                   src="/logos.png"
                   className=" w-12 sm:w-24 cursor-pointer "
+                  alt="logo"
                   onClick={() => {
                     router.push("/");
                   }}

@@ -37,7 +37,7 @@ const Second = ({header,Datas}) => {
   return (
     <main className=' pb-10 mb-5 2xl:mb-24'>
         <div>
-            <header className=' font-bold text-2xl text-white mb-5 flex items-center justify-between'><div>{header}</div><div className='flex items-center text-sm text-[#A5AFBE]'><BiSolidGrid  className=' text-yellow-500'/></div></header>
+            <header className=' font-bold text-2xl text-white mb-5 flex items-center justify-between'><h1>{header}</h1><div className='flex items-center text-sm text-[#A5AFBE]'><BiSolidGrid  className=' text-yellow-500'/></div></header>
             <ul className=' font-bold text-sm flex items-center mb-8'>
                 <li className=' mr-7 hover:text-yellow-500  text-yellow-500'>#LATEST</li>
                 <li className='hover:text-yellow-500 hidden sm:block text-yellow-500'>#MOST REVIEWED</li>
