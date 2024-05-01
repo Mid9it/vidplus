@@ -74,7 +74,7 @@ const Search = () => {
                 type="text"
                 onChange={(e) => handleChange(e.target.value)}
                 placeholder="Search for Movie or TV Show"
-                className="px-4 font-medium w-full h-14 border-y-4 outline-none border-[#020B19] bg-[#243651] text-white"
+                className="px-4 font-medium w-full h-14 border-y-4 border-l-4 outline-none border-[#020B19] bg-[#243651] text-white"
               />
               <div
                 className="flex justify-center relative z-30 items-center h-14 border-y-4 border-r-4 border-[#020B19] bg-[#243651] text-white px-3 text-2xl "
