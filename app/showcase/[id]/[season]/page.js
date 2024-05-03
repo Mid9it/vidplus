@@ -11,7 +11,7 @@ return{
   title:{
     default: `Vidnaija || ${title} `},
     openGraph: {
-      title: title,
+      title: `Vidnaija || ${title} `,
       description: overview,
       images:[{url: image, width:1200, height:630}],
       type:"website"
