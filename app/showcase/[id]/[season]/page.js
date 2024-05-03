@@ -9,7 +9,7 @@ export async function generateMetadata({params}){
   const cate = info.category
 return{
   title:{
-    default: title},
+    default: `Vidnaija || ${title} `},
     openGraph: {
       title: title,
       description: overview,
