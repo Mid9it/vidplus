@@ -17,7 +17,8 @@ npm run dev
 ## To Build
 npm run build
 
-You can make some changes to the codes
-it come with an already running Streaming API no updates required
+You can make some changes to the codes.
+
+It come with an already running Streaming API no updates required.
 
 For free deployment, I suggest using [`Fly.io`](https://fly.io)
